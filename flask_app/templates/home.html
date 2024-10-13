@@ -1,9 +1,13 @@
 {% extends "base.html" %}
 {% block pageContent %}
-<div>
-    <h1>Welcome to VA Store</h1>
-    <small>Products to shop!</small>
-
-    <a href="{{url_for('products')}}" class="btn btn-primary">View Our Products</a>
-</div>
+    <div class="homepage_body">
+        <div class="card card-homepage">
+            <img src="static/images/sales.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">VA STORE</h5>
+              <p class="card-text">View our cheapest products.</p>
+              <a href="{{url_for('products')}}" class="btn btn-primary button-link">View Our Products</a>
+            </div>
+          </div>
+    </div>
 {% endblock %}

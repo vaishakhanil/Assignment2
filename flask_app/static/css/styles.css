@@ -2,7 +2,6 @@ body {
     background-color: rgb(34, 34, 34);
 }
 
-
 footer {
     position: fixed;
     bottom: 0;
@@ -20,4 +19,42 @@ footer {
 
 h1, small {
     color: white;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.title {
+    margin-top: 2vh;
+}
+
+.homepage_body {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-homepage {
+    width: 100%;
+    height: 50vh;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 4rem;
+}
+
+.button-link {
+    margin: 20px;
 }
