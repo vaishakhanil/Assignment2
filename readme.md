@@ -14,3 +14,11 @@ Create assignment virtual environment, install the dependencies and run the appl
 
 > [!NOTE]  
 > Created a .env file to store MONGO_USERNAME & MONGO_PASSWORD, so the username and password is not pushed to git
+
+
+
+### Demo Images:
+
+Home Page | Products Page
+------------ | ------------- 
+![Home Page](demo/HomePage.png) | ![Products Page](demo/ProductsPage.png)
