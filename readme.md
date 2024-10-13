@@ -21,4 +21,4 @@ Create assignment virtual environment, install the dependencies and run the appl
 
 Home Page | Products Page
 ------------ | ------------- 
-![Home Page](demo/HomePage.png) | ![Products Page](demo/ProductsPage.png)
+![Home Page](demo/Homepage.png) | ![Products Page](demo/Productspage.png)
