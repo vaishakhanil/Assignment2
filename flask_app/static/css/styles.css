@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    
+    width: 100vw;
+    height: 10vh;
+
+    background-color: #2b3034;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, small {
+    color: white;
+}

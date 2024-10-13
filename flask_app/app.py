@@ -17,7 +17,7 @@ MONGO_PASSWORD = os.getenv("MONGO_PASSWORD")
 URI = "mongodb+srv://{}:{}@assignment2cluster.5lvu5.mongodb.net/?retryWrites=true&w=majority&appName=assignment2Cluster".format(MONGO_USERNAME, MONGO_PASSWORD)
 
 # Print Error Message
-if MONGO_PASSWORD == None || MONGO_USERNAME == None:
+if (MONGO_PASSWORD == None or MONGO_USERNAME == None):
     print("Connection Error: Please create .env file and enter your MongoDB Username and password")
 
 client = MongoClient(URI)
@@ -34,7 +34,7 @@ def home():
 @app.route("/products")
 def products():
     products = products_collection.find()
-    return render_template("products.html", products)
+    return render_template("products.html", products = products)
 
 if __name__ == '__main__':
     app.run()
