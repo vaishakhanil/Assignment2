@@ -22,3 +22,9 @@ Create assignment virtual environment, install the dependencies and run the appl
 Home Page | Products Page
 ------------ | ------------- 
 ![Home Page](demo/Homepage.png) | ![Products Page](demo/Productspage.png)
+
+
+
+### Testing Render Cloud deployment
+---
+> Testing on how to deploy it in Render Cloud platform, installing gunicorn for Python WSGI server build.
