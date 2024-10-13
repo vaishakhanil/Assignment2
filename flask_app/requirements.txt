@@ -1,7 +1,3 @@
 flask
 pymongo
 python-dotenv
-
-
-# Testing deploying using render
-gunicorn
