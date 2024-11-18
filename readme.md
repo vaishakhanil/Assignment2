@@ -39,3 +39,11 @@ Home Page | Products Page
 - [x] 5. Template and Bootstrap Integration
 - [x] 6. Testing Application
 
+### Assignment 03
+
+- [x] 1. Creating Test Cases:
+    - [x] Test 1: Route Test
+    - [x] Test 2: Database Read Operation - Using Ping
+    - [] Test 3: Database Write Operation
+- [x] 2. Unit Test Integration with Github Actions
+    - [x] Create .github/workflows/main.yml file
