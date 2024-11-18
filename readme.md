@@ -47,3 +47,34 @@ Home Page | Products Page
     - [x] Test 3: Database Write Operation
 - [x] 2. Unit Test Integration with Github Actions
     - [x] Create .github/workflows/main.yml file
+
+
+### File Structure:
+```
+.
+├── Assignment 02.pdf
+├── demo
+│   ├── Homepage.png
+│   └── Productspage.png
+├── flask_app
+│   ├── app.py
+│   ├── requirements.txt
+│   ├── static
+│   │   ├── css
+│   │   │   └── styles.css
+│   │   └── images
+│   │       ├── headphones.jpg
+│   │       ├── laptop.jpg
+│   │       ├── mug.jpg
+│   │       └── sales.jpg
+│   ├── templates
+│   │   ├── base.html
+│   │   ├── home.html
+│   │   └── products.html
+│   └── tests
+│       ├── __init__.py
+│       ├── test_db_read.py
+│       ├── test_db_write.py
+│       └── test_routes.py
+└── readme.md
+```

@@ -11,14 +11,20 @@ class FlaskRouteTest(unittest.TestCase):
     def test_home_route_invalid_method(self):
         # Send a POST request to the home route
         response = self.app.post('/')
-        self.assertEqual(response.status_code, 405)  # Expect 405 Method Not Allowed
+
+        # Expect 405 Method Not Allowed when trying to send post request for '/'
+        self.assertEqual(response.status_code, 405)  
 
     # Test if the /products route works with GET
     def test_products_route_get(self):
         # Send a GET request to the /products route
         response = self.app.get('/products')
-        self.assertEqual(response.status_code, 200)  # Expect 200 OK
-        self.assertIn(b"Our Products", response.data)  # Check if the page contains the word "Products"
+
+        # Expect 200 OK
+        self.assertEqual(response.status_code, 200)  
+
+        # Check if the page contains the word "Our Products" - The title
+        self.assertIn(b"Our Products", response.data)  
 
 if __name__ == "__main__":
     unittest.main()
