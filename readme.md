@@ -44,6 +44,6 @@ Home Page | Products Page
 - [x] 1. Creating Test Cases:
     - [x] Test 1: Route Test
     - [x] Test 2: Database Read Operation - Using Ping
-    - [] Test 3: Database Write Operation
+    - [x] Test 3: Database Write Operation
 - [x] 2. Unit Test Integration with Github Actions
     - [x] Create .github/workflows/main.yml file
