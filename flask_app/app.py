@@ -14,7 +14,7 @@ MONGO_USERNAME = os.getenv("MONGO_USERNAME")
 MONGO_PASSWORD = os.getenv("MONGO_PASSWORD")
 
 # Connecting to Mongo Atlas
-URI = "mongodb+srv://{}:{}@assignment2cluster.5lvu5.mongodb.net/?retryWrites=true&w=majority&appName=assignment2Cluster".format(MONGO_USERNAME, MONGO_PASSWORD)
+URI = "mongodb+srv://{}:{}@assignment2cluster.5lvu5.mongodb.net/?retryWrites=true&w=majority&ssl=true&appName=assignment2Cluster".format(MONGO_USERNAME, MONGO_PASSWORD)
 
 # Print Error Message
 if (MONGO_PASSWORD == None or MONGO_USERNAME == None):
