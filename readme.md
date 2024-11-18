@@ -1,5 +1,6 @@
 # DevOps Assignment: E-commerce Flask Application
 ---
+![Badge](https://github.com/vaishakhanil/Assignment2/actions/workflows/main.yml/badge.svg)
 
 ### Running the project:
 
@@ -14,8 +15,6 @@ Create assignment virtual environment, install the dependencies and run the appl
 
 > [!NOTE]
 > Created a .env file to store MONGO_USERNAME & MONGO_PASSWORD, so the username and password is not pushed to git
-
-
 
 ### Demo Images:
 
