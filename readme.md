@@ -39,7 +39,7 @@ Home Page | Products Page
 - [x] 5. Template and Bootstrap Integration
 - [x] 6. Testing Application
 
-### Assignment 03
+### Assignment 04
 
 - [x] 1. Creating Test Cases:
     - [x] Test 1: Route Test
