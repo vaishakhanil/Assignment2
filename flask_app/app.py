@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 app = Flask(__name__)
 
 # Loading dotenv
-load_dotenv()
+load_dotenv(dotenv_path='./.env')
 
 # Getting the username and password from .env file
 MONGO_USERNAME = os.getenv("MONGO_USERNAME")
