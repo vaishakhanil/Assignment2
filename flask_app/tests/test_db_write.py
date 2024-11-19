@@ -35,11 +35,11 @@ class MongoDBWriteOperationTest(unittest.TestCase):
         inserted_product = self.collection.find_one({"_id": result.inserted_id})
         
         # Assertions to verify the document
-        self.assertIsNotNone(inserted_product, "The document was not inserted.")
-        self.assertEqual(inserted_product["name"], product["name"], "Product name does not match.")
-        self.assertEqual(inserted_product["tag"], product["tag"], "Product tag does not match.")
-        self.assertEqual(inserted_product["price"], product["price"], "Product price does not match.")
-        self.assertEqual(inserted_product["image_path"], product["image_path"], "Product image path does not match.")
+        self.assertIsNotNone(inserted_product, "The document was not inserted.");
+        self.assertEqual(inserted_product["name"], product["name"]);
+        self.assertEqual(inserted_product["tag"], product["tag"]);
+        self.assertEqual(inserted_product["price"], product["price"]);
+        self.assertEqual(inserted_product["image_path"], product["image_path"]);
         
         # Cleanup: Remove the inserted document after the test
         self.collection.delete_one({"_id": result.inserted_id})

@@ -25,6 +25,7 @@ class MongoDBConnectionTest(unittest.TestCase):
             self.fail(f"MongoDB connection failed: {e}")
 
         finally:
+            
             # Ensure MongoClient is closed to avoid resource warnings
             client.close()
 

@@ -20,7 +20,10 @@ URI = "mongodb+srv://{}:{}@assignment2cluster.5lvu5.mongodb.net/?retryWrites=tru
 if (MONGO_PASSWORD == None or MONGO_USERNAME == None):
     print("Connection Error: Please create .env file and enter your MongoDB Username and password")
 
+# Setting up Mongo Client
 client = MongoClient(URI)
+
+# Setting up the DB and Collection 
 db = client.shop_db
 products_collection = db.products
 
